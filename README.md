@@ -28,7 +28,8 @@ Uma aplicação interativa em Python que demonstra visualmente a deformação de
 │   ├── 📄 test_algebra.py
 │   └── 📄 test_grade.py
 ├── 📄 requirements.txt    # Dependências do projeto
-└── 📄 README.md           # Este arquivo
+├── 📄 README.md           # Este arquivo
+└── 📄 TRABALHO_EM_GRUPO.md # Guia para desenvolvimento colaborativo
 ```
 
 ## 🚀 Instalação
@@ -140,6 +141,8 @@ Contribuições são bem-vindas! Para contribuir:
 4. Push para a branch (`git push origin feature/AmazingFeature`)
 5. Abra um Pull Request
 
+> **Nota**: Para trabalho em grupo, consulte [TRABALHO_EM_GRUPO.md](TRABALHO_EM_GRUPO.md) para diretrizes detalhadas de divisão de tarefas, padrões de código e fluxo de trabalho colaborativo.
+
 ## 📄 Licença
 
 Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
@@ -153,5 +156,3 @@ Se você tiver dúvidas ou encontrar problemas:
 - Para problemas com a GUI, verifique se Tkinter está disponível no seu sistema Python
 
 ---
-
-**Desenvolvido com ❤️ para demonstrar conceitos de álgebra linear de forma visual e interativa.**

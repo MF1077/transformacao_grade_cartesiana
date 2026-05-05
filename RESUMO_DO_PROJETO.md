@@ -8,16 +8,16 @@
 
 ### Funcionalidades Implementadas
 
-| Funcionalidade | Status | Descrição |
-|---|---|---|
-| **Operações Matriciais** | ✅ | Multiplicação matriz-vetor, determinante, inversão |
-| **Geração de Grades** | ✅ | Criação de grades cartesianas regulares |
-| **Transformação Linear** | ✅ | Aplicação de matrizes 2×2 a grades |
-| **Visualização Matplotlib** | ✅ | Plotagem de grades original, transformada e inversa |
-| **Interface GUI** | ✅ | Tkinter com entrada de coeficientes e plotagem integrada |
-| **Interface Console** | ✅ | Entrada interativa via linha de comando |
-| **Documentação** | ✅ | README completo, docstrings, guia de grupo |
-| **Controle de Versão** | ✅ | Git com commits organizados |
+|        Funcionalidade       | Status |                         Descrição                         |
+|-----------------------------|--------|-----------------------------------------------------------|
+| **Operações Matriciais**    |   ✅   | Multiplicação matriz-vetor, determinante, inversão       |
+| **Geração de Grades**       |   ✅   | Criação de grades cartesianas regulares                  |
+| **Transformação Linear**    |   ✅   | Aplicação de matrizes 2×2 a grades                       |
+| **Visualização Matplotlib** |   ✅   | Plotagem de grades original, transformada e inversa      |
+| **Interface GUI**           |   ✅   | Tkinter com entrada de coeficientes e plotagem integrad  |
+| **Interface Console**       |   ✅   | Entrada interativa via linha de comando                  |
+| **Documentação**            |   ✅   | README completo, docstrings, guia de grupo               |
+| **Controle de Versão**      |   ✅   | Git com commits organizados                              |
 
 ---
 
@@ -32,7 +32,6 @@
 
 ### Documentação
 - **README**: Completo com instalação, uso e exemplos
-- **TRABALHO_EM_GRUPO.md**: Guia detalhado para desenvolvimento colaborativo
 - **Docstrings**: Google-style em todas as funções
 - **Comentários**: Explicando lógica complexa
 - **Commits**: 6 commits organizados e descritos
@@ -53,8 +52,8 @@
 │           │                       │                         │
 │           └───────────┬───────────┘                         │
 │                       │                                     │
-│        ┌──────────────▼──────────────┐                      │
-│        │  Núcleo de Transformação    │                      │
+│        ┌──────────────▼───────────────┐                     │
+│        │  Núcleo de Transformação     │                     │
 │        ├──────────────────────────────┤                     │
 │        │  grade.py & algebra.py       │                     │
 │        │  - Gerar grades              │                     │
@@ -139,7 +138,6 @@ Projeto_Transformacao_Grade_Cartesiana/
 │       └── _plot()
 │
 ├──  README.md                  # Documentação principal
-├── 📄 TRABALHO_EM_GRUPO.md       # Guia colaborativo
 ├── 📄 requirements.txt           # Dependências
 ├── 📄 .gitignore                 # Arquivos ignorados pelo Git
 └── 📄 RESUMO_DO_PROJETO.md       # Este arquivo

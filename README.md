@@ -66,26 +66,6 @@ python main.py
 - A visualização será exibida em uma janela separada
 
 
-## � Controle de Versão
-
-Este projeto utiliza Git para controle de versão. O histórico de commits está organizado por funcionalidades:
-
-- **Initial commit**: Estrutura básica, README, dependências e .gitignore
-- **Core modules**: Módulos principais de álgebra, grade, visualização e console
-- **GUI interface**: Interface gráfica moderna com Tkinter
-
-Para contribuir, siga as melhores práticas de Git:
-
-```bash
-git clone <repository-url>
-cd Projeto_Transformacao_Grade_Cartesiana
-git checkout -b feature/nova-funcionalidade
-# Faça suas alterações
-git add .
-git commit -m "feat: descrição clara da mudança"
-git push origin feature/nova-funcionalidade
-```
-
 ## �📖 Exemplos de Uso
 
 ### Matriz Identidade
@@ -109,27 +89,3 @@ c = 0, d = 0.5
 ```
 Resultado: Grade alongada horizontalmente e comprimida verticalmente.
 
-## 🤝 Contribuição
-
-Contribuições são bem-vindas! Para contribuir:
-
-1. Fork o projeto
-2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
-3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
-4. Push para a branch (`git push origin feature/AmazingFeature`)
-5. Abra um Pull Request
-
-> **Nota**: Para trabalho em grupo, consulte [TRABALHO_EM_GRUPO.md](TRABALHO_EM_GRUPO.md) para diretrizes detalhadas de divisão de tarefas, padrões de código e fluxo de trabalho colaborativo.
-
-## 📄 Licença
-
-Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para detalhes.
-
-## 🙋 Suporte
-
-Se você tiver dúvidas ou encontrar problemas:
-
-- Certifique-se de que todas as dependências estão instaladas
-- Para problemas com a GUI, verifique se Tkinter está disponível no seu sistema Python
-
----

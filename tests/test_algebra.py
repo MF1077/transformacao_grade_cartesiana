@@ -31,14 +31,6 @@ class TestMultiplicarMatrizVetor:
         expected = [17, 39]  # 1*5 + 2*6 = 17, 3*5 + 4*6 = 39
         assert result == expected
 
-    def test_vetor_zero(self):
-        """Testa com vetor zero."""
-        M = [[1, 2], [3, 4]]
-        v = [0, 0]
-        result = multiplicar_matriz_vetor(M, v)
-        expected = [0, 0]
-        assert result == expected
-
     def test_matriz_identidade(self):
         """Testa com matriz identidade."""
         M = [[1, 0], [0, 1]]

@@ -32,7 +32,7 @@
 - **Type Hints**: 100% (todas as funções tipadas)
 
 ### Testes
-- **Total de Testes**: 45
+- **Total de Testes**: 44
 - **Taxa de Passing**: 100%
 - **Cobertura Estimada**: >90%
 - **Casos Testados**: 
@@ -54,45 +54,45 @@
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                   Aplicação Principal                        │
+│                   Aplicação Principal                       │
 ├─────────────────────────────────────────────────────────────┤
-│                                                               │
-│  ┌────────────────┐      ┌────────────────┐                │
-│  │   GUI          │      │   Console      │                │
-│  │  (gui.py)      │      │  (main.py)     │                │
-│  └────────┬───────┘      └────────┬───────┘                │
+│                                                             │
+│  ┌────────────────┐      ┌────────────────┐                 │
+│  │   GUI          │      │   Console      │                 │
+│  │  (gui.py)      │      │  (main.py)     │                 │
+│  └────────┬───────┘      └────────┬───────┘                 │
 │           │                       │                         │
 │           └───────────┬───────────┘                         │
-│                       │                                      │
-│        ┌──────────────▼──────────────┐                     │
-│        │  Núcleo de Transformação    │                     │
+│                       │                                     │
+│        ┌──────────────▼──────────────┐                      │
+│        │  Núcleo de Transformação    │                      │
 │        ├──────────────────────────────┤                     │
 │        │  grade.py & algebra.py       │                     │
 │        │  - Gerar grades              │                     │
 │        │  - Operações matriciais      │                     │
 │        │  - Transformar pontos        │                     │
 │        └──────────────┬───────────────┘                     │
-│                       │                                      │
-│        ┌──────────────▼──────────────┐                     │
-│        │   Visualização              │                     │
+│                       │                                     │
+│        ┌──────────────▼───────────────┐                     │
+│        │   Visualização               │                     │
 │        ├──────────────────────────────┤                     │
 │        │  visualizacao.py             │                     │
 │        │  - Plotar com Matplotlib     │                     │
 │        │  - Interpretar determinante  │                     │
 │        └──────────────────────────────┘                     │
-│                                                               │
+│                                                             │
 └─────────────────────────────────────────────────────────────┘
          │
          │ Suportado por
          ▼
 ┌─────────────────────────────────────────────────────────────┐
-│          Infraestrutura e Qualidade                          │
+│          Infraestrutura e Qualidade                         │
 ├─────────────────────────────────────────────────────────────┤
-│  ✓ Testes (tests/)                                           │
-│  ✓ Git & Commits                                             │
-│  ✓ Documentação                                              │
-│  ✓ Type Hints                                                │
-│  ✓ Tratamento de Erros                                       │
+│  ✓ Testes (tests/)                                          │
+│  ✓ Git & Commits                                            │
+│  ✓ Documentação                                             │
+│  ✓ Type Hints                                               │
+│  ✓ Tratamento de Erros                                      │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -238,45 +238,6 @@ a=1, b=1, c=0, d=1
 
 ---
 
-## 👥 Divisão de Responsabilidades (Para Equipe)
-
-Veja [TRABALHO_EM_GRUPO.md](TRABALHO_EM_GRUPO.md) para:
-- 5 áreas de especialização
-- Checklists de tarefas
-- Padrões de código
-- Fluxo de trabalho colaborativo
-- Comunicação da equipe
-
----
-
-## 📈 Próximas Melhorias (Versão 2.0)
-
-- [ ] Suporte para matrizes 3×3 e NxN
-- [ ] Animações de transformação
-- [ ] Exportação de imagens
-- [ ] Histórico de transformações
-- [ ] Aplicação web (Flask/Django)
-- [ ] Cálculos simbólicos (SymPy)
-- [ ] Mais exemplos educacionais
-
----
-
-## 📞 Contato e Suporte
-
-Para dúvidas ou contribuições:
-1. Consulte o README.md
-2. Leia TRABALHO_EM_GRUPO.md
-3. Verifique os testes em `tests/`
-4. Abra uma issue no GitHub
-
----
-
-## 📜 Licença
-
-MIT License - Veja LICENSE para detalhes.
-
----
-
 ## 🎉 Conclusão
 
 O projeto está **completo, testado e pronto para uso educacional**. 
@@ -289,11 +250,4 @@ Todos os componentes funcionam harmoniosamente:
 - ✅ Documentação profissional
 - ✅ Organização colaborativa
 
-**Pronto para ser utilizado em sala de aula! 🎓**
-
 ---
-
-**Última atualização**: 05/05/2026  
-**Versão**: 1.0  
-**Status**: ✅ Completo e Produção
-

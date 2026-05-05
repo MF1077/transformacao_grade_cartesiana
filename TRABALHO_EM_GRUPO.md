@@ -9,7 +9,6 @@ Criar uma aplicação Python profissional que:
 - Implemente operações de álgebra linear manualmente
 - Visualize transformações de forma intuitiva
 - Forneça interface gráfica moderna e intuitiva
-- Inclua testes automatizados completos
 
 ---
 
@@ -66,24 +65,7 @@ Criar uma aplicação Python profissional que:
 
 ---
 
-### 4️⃣ **Testes e Qualidade** (tests/)
-**Responsáveis**: Quem trabalha com garantia de qualidade
-
-**Tarefas**:
-- ✅ Escrever testes unitários para cada função
-- ✅ Testar casos extremos e erros
-- ✅ Manter cobertura de testes alta (>90%)
-- ✅ Validar casos de uso reais
-
-**Checklist**:
-- [ ] Todos os testes passam (`pytest tests/ -v`)
-- [ ] Cobertura de código >90%
-- [ ] Testes documentados com comentários
-- [ ] Adicionar testes de integração
-
----
-
-### 5️⃣ **Documentação e Git** (README.md, commits, etc.)
+### 4️⃣ **Documentação e Git** (README.md, commits, etc.)
 **Responsáveis**: Quem organiza o projeto e documentação
 
 **Tarefas**:
@@ -119,12 +101,7 @@ Criar uma aplicação Python profissional que:
    - Seguir o padrão de código existente
    - Testar frequentemente
 
-3. Adicionar ou atualizar testes:
-   ```bash
-   pytest tests/ -v
-   ```
-
-4. Fazer commits com mensagens descritivas:
+3. Fazer commits com mensagens descritivas:
    ```bash
    git commit -m "feat: adiciona validação de matriz singular"
    ```
@@ -141,10 +118,9 @@ Criar uma aplicação Python profissional que:
 5. Merge para main branch
 
 ### Fase 4: Deploy
-1. Executar todos os testes
-2. Atualizar documentação
-3. Criar commit final de release
-4. Testar a aplicação completa
+1. Atualizar documentação
+2. Criar commit final de release
+3. Testar a aplicação completa manualmente
 
 ---
 
@@ -218,7 +194,6 @@ Antes de fazer commit, verifique:
 - [ ] Código segue padrões (Black, PEP 8)
 - [ ] Todas as funções têm docstrings
 - [ ] Type hints em todos os parâmetros e returns
-- [ ] Testes cobrem a funcionalidade
 - [ ] Comentários explicam lógica complexa
 - [ ] Sem erros de sintaxe
 - [ ] Sem warnings do linter
@@ -227,13 +202,6 @@ Antes de fazer commit, verifique:
 ---
 
 ## 🚀 Comandos Úteis
-
-### Executar testes
-```bash
-pytest tests/ -v
-pytest tests/test_algebra.py -v  # Teste específico
-pytest tests/ --cov              # Com cobertura
-```
 
 ### Verificar estilo do código
 ```bash
@@ -278,7 +246,6 @@ git push origin branch-name             # Enviar para remoto
 
 ### Regras de Revisão de Código
 - Mínimo 1 aprovação antes de merge
-- Verificar testes passando
 - Resolver conflitos localmente
 - Deixar feedback construtivo
 
@@ -291,7 +258,6 @@ git push origin branch-name             # Enviar para remoto
 - ✅ Geração de grades
 - ✅ Visualização com Matplotlib
 - ✅ Interface gráfica com Tkinter
-- ✅ Testes automatizados
 - ✅ Documentação completa
 
 ### Versão 1.1 (Planejado)

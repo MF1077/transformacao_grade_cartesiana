@@ -1,10 +1,6 @@
 # 📐 Transformação de Grade Cartesiana
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen.svg)]()
-
-Uma aplicação interativa em Python que demonstra visualmente a deformação de uma grade cartesiana através da aplicação de uma matriz de transformação 2×2. Explore conceitos de álgebra linear de forma intuitiva com interface gráfica moderna e testes automatizados.
+Uma aplicação interativa em Python que demonstra visualmente a deformação de uma grade cartesiana através da aplicação de uma matriz de transformação 2×2. Explore conceitos de álgebra linear de forma intuitiva com interface gráfica moderna.
 
 ## ✨ Características
 
@@ -12,7 +8,6 @@ Uma aplicação interativa em Python que demonstra visualmente a deformação de
 - 🎨 **Design Moderno**: GUI com paleta de cores hoje em azul, branco e vermelho vibrante para tornar a experiência mais atraente
 - 📊 **Visualização Gráfica**: Plotagem interativa da grade original e transformada usando Matplotlib
 - 🖥️ **Interface Gráfica**: GUI elegante com Tkinter para entrada em tempo real e visualização aprimorada
-- 🧪 **Testes Automatizados**: Cobertura completa com pytest para validação de funções
 - 🔄 **Transformação Inversa**: Demonstração da reversibilidade quando a matriz é invertível
 
 ## 📁 Estrutura do Projeto
@@ -24,10 +19,7 @@ Uma aplicação interativa em Python que demonstra visualmente a deformação de
 ├── 📄 visualizacao.py     # Funções de plotagem com Matplotlib
 ├── 📄 main.py             # Interface de console
 ├── 📄 gui.py              # Interface gráfica com Tkinter
-├── 📁 tests/              # Testes automatizados
-│   ├── 📄 test_algebra.py
-│   └── 📄 test_grade.py
-├── 📄 requirements.txt    # Dependências do projeto
+├──  requirements.txt    # Dependências do projeto
 ├── 📄 README.md           # Este arquivo
 └── 📄 TRABALHO_EM_GRUPO.md # Guia para desenvolvimento colaborativo
 ```
@@ -73,19 +65,6 @@ python main.py
 - Digite os valores solicitados no terminal
 - A visualização será exibida em uma janela separada
 
-## 🧪 Testes
-
-Execute a suíte de testes para validar todas as funcionalidades:
-
-```bash
-pytest tests/ -v
-```
-
-Ou usando Python:
-
-```bash
-python -m pytest tests/ -v
-```
 
 ## � Controle de Versão
 
@@ -93,7 +72,6 @@ Este projeto utiliza Git para controle de versão. O histórico de commits está
 
 - **Initial commit**: Estrutura básica, README, dependências e .gitignore
 - **Core modules**: Módulos principais de álgebra, grade, visualização e console
-- **Test suite**: Conjunto completo de testes automatizados
 - **GUI interface**: Interface gráfica moderna com Tkinter
 
 Para contribuir, siga as melhores práticas de Git:
@@ -151,7 +129,6 @@ Este projeto está licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICE
 
 Se você tiver dúvidas ou encontrar problemas:
 
-- Verifique os testes: `pytest tests/`
 - Certifique-se de que todas as dependências estão instaladas
 - Para problemas com a GUI, verifique se Tkinter está disponível no seu sistema Python
 

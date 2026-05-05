@@ -16,7 +16,6 @@
 | **Visualização Matplotlib** | ✅ | Plotagem de grades original, transformada e inversa |
 | **Interface GUI** | ✅ | Tkinter com entrada de coeficientes e plotagem integrada |
 | **Interface Console** | ✅ | Entrada interativa via linha de comando |
-| **Testes Automatizados** | ✅ | 45 testes unitários (100% passing) |
 | **Documentação** | ✅ | README completo, docstrings, guia de grupo |
 | **Controle de Versão** | ✅ | Git com commits organizados |
 
@@ -30,16 +29,6 @@
 - **Classes**: 1 (`TransformacaoApp`)
 - **Funções**: 20+
 - **Type Hints**: 100% (todas as funções tipadas)
-
-### Testes
-- **Total de Testes**: 44
-- **Taxa de Passing**: 100%
-- **Cobertura Estimada**: >90%
-- **Casos Testados**: 
-  - Operações matemáticas básicas
-  - Casos extremos e erros
-  - Transformações geométricas
-  - Validação de entrada
 
 ### Documentação
 - **README**: Completo com instalação, uso e exemplos
@@ -88,7 +77,6 @@
 ┌─────────────────────────────────────────────────────────────┐
 │          Infraestrutura e Qualidade                         │
 ├─────────────────────────────────────────────────────────────┤
-│  ✓ Testes (tests/)                                          │
 │  ✓ Git & Commits                                            │
 │  ✓ Documentação                                             │
 │  ✓ Type Hints                                               │
@@ -106,12 +94,6 @@
 - ✅ **Docstrings**: Google-style em todas as funções públicas
 - ✅ **Nomenclatura**: `snake_case` para funções/variáveis, `PascalCase` para classes
 - ✅ **Comentários**: Explicam lógica complexa sem ser óbvios
-
-### Testes
-- ✅ **Estrutura**: Classes de teste agrupadas por funcionalidade
-- ✅ **Nomenclatura**: `test_<função>_<cenário>`
-- ✅ **Cobertura**: Edge cases, valores extremos, erros
-- ✅ **Isolamento**: Cada teste é independente
 
 ### Git
 - ✅ **Commits**: Mensagens claras e descritivas
@@ -156,11 +138,7 @@ Projeto_Transformacao_Grade_Cartesiana/
 │       ├── compute()
 │       └── _plot()
 │
-├── 📁 tests/                     # Testes automatizados
-│   ├── 📄 test_algebra.py        # 32 testes
-│   └── 📄 test_grade.py          # 13 testes
-│
-├── 📄 README.md                  # Documentação principal
+├──  README.md                  # Documentação principal
 ├── 📄 TRABALHO_EM_GRUPO.md       # Guia colaborativo
 ├── 📄 requirements.txt           # Dependências
 ├── 📄 .gitignore                 # Arquivos ignorados pelo Git
@@ -185,11 +163,6 @@ python gui.py
 ### Console
 ```bash
 python main.py
-```
-
-### Testes
-```bash
-pytest tests/ -v
 ```
 
 ---
@@ -226,7 +199,6 @@ a=1, b=1, c=0, d=1
 
 ### Checklist de Qualidade ✅
 - [x] Sem erros de sintaxe
-- [x] Todos os testes passam
 - [x] Type hints em 100% do código
 - [x] Docstrings em todas as funções públicas
 - [x] Sem warnings do linter
@@ -240,13 +212,12 @@ a=1, b=1, c=0, d=1
 
 ## 🎉 Conclusão
 
-O projeto está **completo, testado e pronto para uso educacional**. 
+O projeto está **completo e pronto para uso educacional**. 
 
 Todos os componentes funcionam harmoniosamente:
 - ✅ Núcleo matemático sólido
 - ✅ Visualização clara e atraente
 - ✅ Interfaces acessíveis (GUI + Console)
-- ✅ Testes abrangentes
 - ✅ Documentação profissional
 - ✅ Organização colaborativa
 

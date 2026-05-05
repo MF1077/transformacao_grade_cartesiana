@@ -120,9 +120,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
-    plotar_grade(grade_original, grade_transformada, det, grade_inversa)
-
-
-if __name__ == "__main__":
-    main()

@@ -86,7 +86,28 @@ Ou usando Python:
 python -m pytest tests/ -v
 ```
 
-## 📖 Exemplos de Uso
+## � Controle de Versão
+
+Este projeto utiliza Git para controle de versão. O histórico de commits está organizado por funcionalidades:
+
+- **Initial commit**: Estrutura básica, README, dependências e .gitignore
+- **Core modules**: Módulos principais de álgebra, grade, visualização e console
+- **Test suite**: Conjunto completo de testes automatizados
+- **GUI interface**: Interface gráfica moderna com Tkinter
+
+Para contribuir, siga as melhores práticas de Git:
+
+```bash
+git clone <repository-url>
+cd Projeto_Transformacao_Grade_Cartesiana
+git checkout -b feature/nova-funcionalidade
+# Faça suas alterações
+git add .
+git commit -m "feat: descrição clara da mudança"
+git push origin feature/nova-funcionalidade
+```
+
+## �📖 Exemplos de Uso
 
 ### Matriz Identidade
 ```

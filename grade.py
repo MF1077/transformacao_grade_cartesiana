@@ -7,9 +7,6 @@ e aplicar transformações lineares a todos os pontos da grade.
 A grade é representada como duas listas: linhas verticais e horizontais,
 onde cada linha é uma lista de pontos [x, y].
 
-Autor: GitHub Copilot
-Data: 2026
-Licença: MIT
 """
 
 from typing import List, Tuple

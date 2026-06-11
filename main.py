@@ -4,9 +4,6 @@ Transformação de Grade Cartesiana - Interface de Console
 Este módulo fornece uma interface de linha de comando para demonstrar
 a transformação de uma grade cartesiana através de uma matriz 2x2.
 
-Autor: GitHub Copilot
-Data: 2026
-Licença: MIT
 """
 
 from algebra import determinante_2x2, matriz_inversa_2x2
@@ -116,6 +113,12 @@ def main() -> None:
         print("\n⏹️  Programa encerrado pelo usuário.")
     except Exception as e:
         print(f"❌ Erro inesperado: {e}")
+
+
+if __name__ == "__main__":
+    main()
+
+    plotar_grade(grade_original, grade_transformada, det, grade_inversa)
 
 
 if __name__ == "__main__":

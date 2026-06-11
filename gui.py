@@ -11,9 +11,6 @@ Características:
 - Visualização integrada com Matplotlib
 - Design moderno e responsivo
 
-Autor: GitHub Copilot
-Data: 2026
-Licença: MIT
 """
 
 import tkinter as tk
@@ -62,6 +59,10 @@ class TransformacaoApp:
     def _configurar_estilos(self) -> None:
         """Configura os estilos visuais da aplicação."""
         style = ttk.Style()
+        try:
+            style.theme_use("clam")
+        except tk.TclError:
+            pass
 
         # Estilo geral
         style.configure(
@@ -79,14 +80,15 @@ class TransformacaoApp:
         style.configure(
             "Accent.TButton",
             background="#1e81b0",
-            foreground="white",
+            foreground="#ffffff",
             borderwidth=0,
             focusthickness=3,
             focuscolor="#ffffff"
         )
         style.map(
             "Accent.TButton",
-            background=[("active", "#17648a"), ("disabled", "#a0c4d6")]
+            background=[("active", "#17648a"), ("disabled", "#a0c4d6"), ("!disabled", "#1e81b0")],
+            foreground=[("active", "#ffffff"), ("disabled", "#e6eef8"), ("!disabled", "#ffffff")]
         )
         style.configure(
             "TEntry",
@@ -136,11 +138,20 @@ class TransformacaoApp:
             self.entries[label] = entry
 
         # Botão de cálculo
-        self.btn_compute = ttk.Button(
+        self.btn_compute = tk.Button(
             input_frame,
             text="📊 Calcular e Plotar",
             command=self.compute,
-            style="Accent.TButton"
+            font=("Segoe UI", 12, "bold"),
+            bg="#1e81b0",
+            fg="#ffffff",
+            activebackground="#17648a",
+            activeforeground="#ffffff",
+            bd=0,
+            relief="flat",
+            padx=12,
+            pady=8,
+            cursor="hand2"
         )
         self.btn_compute.grid(row=3, column=0, columnspan=4, pady=20)
 

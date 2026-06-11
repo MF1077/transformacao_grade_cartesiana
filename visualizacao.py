@@ -7,9 +7,6 @@ visualizações gráficas das grades cartesianas usando Matplotlib.
 As funções geram plots interativos mostrando a grade original,
 transformada e, quando possível, a transformação inversa.
 
-Autor: GitHub Copilot
-Data: 2026
-Licença: MIT
 """
 
 import matplotlib.pyplot as plt

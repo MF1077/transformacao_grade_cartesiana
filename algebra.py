@@ -7,9 +7,6 @@ cálculo de determinantes, resolução de sistemas lineares e inversão de matri
 
 Todas as funções incluem validação de entrada e tratamento de erros.
 
-Autor: GitHub Copilot
-Data: 2026
-Licença: MIT
 """
 
 from typing import List

@@ -1,12 +1,19 @@
 """
-Módulo de Álgebra Linear
+================================================================================
+MÓDULO DE ÁLGEBRA LINEAR
+================================================================================
 
-Este módulo implementa operações matriciais fundamentais para o projeto
-de transformação de grade cartesiana, incluindo multiplicação de matrizes,
-cálculo de determinantes, resolução de sistemas lineares e inversão de matrizes.
+Implementa operações matriciais fundamentais para transformação de grades
+cartesianas, com validação de entrada e tratamento robusto de erros.
 
-Todas as funções incluem validação de entrada e tratamento de erros.
+Operações suportadas:
+  • Multiplicação de matriz por vetor (transformação linear 2D)
+  • Multiplicação de matrizes 2x2
+  • Cálculo de determinantes (2x2 e 3x3)
+  • Solução de sistemas lineares (eliminação de Gauss)
+  • Inversão de matrizes 2x2
 
+================================================================================
 """
 
 from typing import List

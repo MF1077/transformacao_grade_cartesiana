@@ -1,11 +1,27 @@
 """
-Testes para o módulo algebra.py
+================================================================================
+TESTES UNITÁRIOS: MÓDULO DE ÁLGEBRA LINEAR
+================================================================================
 
-Este arquivo contém testes unitários abrangentes para todas as funções
-do módulo de álgebra linear, incluindo casos normais, casos extremos
-e validação de erros.
+Testes abrangentes para todas as funções do módulo algebra.py.
 
-Executar com: pytest tests/test_algebra.py -v
+Cobertura:
+  • Multiplicação de matriz por vetor
+  • Multiplicação de matrizes 2x2
+  • Cálculo de determinantes (2x2 e 3x3)
+  • Solução de sistemas lineares (eliminação de Gauss)
+  • Inversão de matrizes 2x2
+
+Tipos de testes:
+  • Casos normais (entrada válida)
+  • Casos extremos (valores especiais)
+  • Validação de erros (entrada inválida)
+
+Executar com:
+  $ pytest tests/test_algebra.py -v
+  $ pytest tests/test_algebra.py --cov=algebra  # Com cobertura
+
+================================================================================
 """
 
 import pytest
@@ -19,6 +35,10 @@ from algebra import (
     matriz_inversa_2x2,
 )
 
+
+# ============================================================================
+# TESTES: MULTIPLICAÇÃO DE MATRIZ POR VETOR
+# ============================================================================
 
 class TestMultiplicarMatrizVetor:
     """Testes para a função multiplicar_matriz_vetor."""

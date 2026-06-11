@@ -1,12 +1,18 @@
 """
-Módulo de Visualização Gráfica
+================================================================================
+MÓDULO DE VISUALIZAÇÃO GRÁFICA
+================================================================================
 
-Este módulo fornece funções para interpretar determinantes e criar
-visualizações gráficas das grades cartesianas usando Matplotlib.
+Fornece funções para interpretar geometricamente os resultados da
+transformação linear e criar visualizações com Matplotlib.
 
-As funções geram plots interativos mostrando a grade original,
-transformada e, quando possível, a transformação inversa.
+Funcionalidades:
+  • Interpretação de determinantes em termos geométricos
+  • Plotagem comparativa de grades original e transformada
+  • Sobreposição de transformações inversas
+  • Exibição de informações sobre o determinante
 
+================================================================================
 """
 
 import matplotlib.pyplot as plt

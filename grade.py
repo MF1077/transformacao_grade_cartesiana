@@ -1,12 +1,17 @@
 """
-Módulo de Geração e Transformação de Grade Cartesiana
+================================================================================
+MÓDULO DE GERAÇÃO E TRANSFORMAÇÃO DE GRADE CARTESIANA
+================================================================================
 
-Este módulo fornece funções para gerar uma grade cartesiana regular
-e aplicar transformações lineares a todos os pontos da grade.
+Fornece funções para gerar e transformar grades cartesianas utilizando
+álgebra linear. A grade é representada como um par de listas:
+  • Linhas verticais (paralelas ao eixo Y)
+  • Linhas horizontais (paralelas ao eixo X)
 
-A grade é representada como duas listas: linhas verticais e horizontais,
-onde cada linha é uma lista de pontos [x, y].
+Cada linha contém uma sequência de pontos [x, y] que serão transformados
+aplicando a matriz de transformação linear.
 
+================================================================================
 """
 
 from typing import List, Tuple
